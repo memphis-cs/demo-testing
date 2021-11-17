@@ -1,0 +1,20 @@
+# == Schema Information
+#
+# Table name: todos
+#
+#  id          :bigint           not null, primary key
+#  description :text
+#  due_date    :date
+#  title       :string
+#  created_at  :datetime         not null
+#  updated_at  :datetime         not null
+#
+
+one:
+  title: MyString
+  description: MyText
+  due_date: 2021-01-23
+two:
+  title: MyString
+  description: MyText
+  due_date: 2021-01-23
